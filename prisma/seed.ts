@@ -1,5 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import * as bcrypt from 'bcrypt';
+
 const HASH_SALT = 10;
 
 const prisma = new PrismaClient();
